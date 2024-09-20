@@ -1,0 +1,9 @@
+{
+    
+    "css.validate": false,
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)`", // For tw syntax
+    "tw\\.[a-zA-Z]+`([^`]*)`", // For tw.component syntax
+    "tw\\(.*?\\)`([^`]*)`" // For tw(Component)``
+  ]
+}
