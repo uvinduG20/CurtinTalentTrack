@@ -1,0 +1,86 @@
+/* src/pages/CriticalThinking.css */
+.critical-thinking {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Hero Section */
+  .cthero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f0ad4e;
+    min-height: 80vh;
+  }
+  
+  .cthero-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .cthero-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .cthero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .cthero-image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .cthero-image {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  /* Scenario Selection */
+  .scenario-selection {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .scenario-card {
+    padding: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    border: 2px solid #e8b028;
+    border-radius: 10px;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+  }
+  
+  .scenario-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Quiz Section */
+  .quiz-section {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .scenario-paragraph {
+    font-style: italic;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-question {
+    margin-bottom: 20px;
+  }
+  
